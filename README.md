@@ -1,6 +1,6 @@
 ## The art of asm programming
 
-This is just a collection of instructional example of ASM.
+This is just a collection of instructional examples of ASM.
 
 ### max.s
 
