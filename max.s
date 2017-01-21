@@ -1,14 +1,17 @@
+# Find the maximum number in a list of numbers
+#
+# %edi = current list position
+# %eax = current number being checked
+# %ebx = current highest number
+
 .section .data
 
-# Only values less than 255 are allowed and the last number must be 0
-data_items: .long 3, 25, 9, 4, 32, 199, 89, 4, 99 
-data_items_len: equ $-data_items
+    # Only values less than 255 are allowed and the last number must be 0
+    data_items: .long 3, 25, 9, 4, 32, 199, 89, 4, 99 
 
 .section .text
 
-# %edi := current list position
-# %eax := current number being checked
-# %ebx := current highest number
+    # Empty
 
 .globl _start
 _start:
