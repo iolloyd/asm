@@ -2,19 +2,12 @@
 
 This is just a collection of instructional examples of ASM.
 
-### max.s
+### Running programs
 
-To execute the program, run the following commands:
+There is a Makefile included. To compile the 'functions' program just run
+> make functions
 
-```bash
-as max.s -o max.o
-ld max.o -o max
-./max
-```
-
-and to see the output:
-```bash
-echo $?
-```
+This will produce an executable called 'functions'. Then to execute, just run
+> ./functions
 
 
